@@ -6,8 +6,6 @@ from queued_storage.conf import settings
 from queued_storage.signals import file_transferred
 from queued_storage.utils import import_attribute
 
-from queued_storage.signals import queued_storage_file_transferred
-
 
 class Transfer(Task):
     """
